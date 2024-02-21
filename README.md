@@ -5,3 +5,6 @@ This Minecraft data pack restores the old recipes for items that have had their 
 ## Recipes Restores
 ### 1.4.1
 * None
+
+### 1.4.0
+* Destiny Knot
