@@ -1,0 +1,18 @@
+{
+    "parent": "cobblemon:recipes/root",
+    "criteria": {
+        "instant": {
+          "trigger": "minecraft:tick"
+        }
+      },
+    "requirements": [
+        [
+            "instant"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "zenno_cobbledoldrecipes:healing_machine_joke"
+        ]
+    }
+}
