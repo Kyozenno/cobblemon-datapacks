@@ -1,0 +1,53 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "litwick-1",
+      "pokemon": "litwick",
+      "presets": ["village"],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "1-25",
+      "weight": 9.0,
+      "condition": {
+        "canSeeSky": true,
+        "timeRange": "night",
+        "isRaining": false
+      }
+    },
+    {
+      "id": "litwick-2",
+      "pokemon": "litwick",
+      "presets": ["mansion"],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "6-31",
+      "weight": 9.0,
+      "context": "grounded",
+      "condition": {
+        "canSeeSky": true,
+        "timeRange": "night",
+        "isRaining": false,
+        "biomes": ["#cobblemon:is_overworld"]
+      }
+    },
+    {
+      "id": "litwick-3",
+      "pokemon": "litwick",
+      "presets": ["mansion"],
+      "type": "pokemon",
+      "bucket": "ultra-rare",
+      "level": "6-31",
+      "weight": 9.0,
+      "context": "grounded",
+      "condition": {
+        "canSeeSky": false,
+        "timeRange": "night",
+        "biomes": ["#cobblemon:is_overworld"]
+      }
+    }
+  ]
+}

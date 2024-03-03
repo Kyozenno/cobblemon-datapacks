@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "drifloon-1",
+      "pokemon": "drifloon",
+      "presets": ["natural"],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "1-25",
+      "weight": 9.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_grassland",
+          "#cobblemon:is_hills",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_sky",
+          "#cobblemon:is_swamp"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": "Flips the rarity buckets on their heads"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "cobblemon",
+                "path": "spawn_pool_world"
+            }
+        ]
+    }
+}
